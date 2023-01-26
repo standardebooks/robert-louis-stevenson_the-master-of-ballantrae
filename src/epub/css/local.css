@@ -73,3 +73,28 @@ p span.i1{
 #chapter-6 ol{
 	list-style-type: upper-alpha;
 }
+
+#chapter-10 blockquote,
+#chapter-12 blockquote{
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#chapter-10 blockquote b,
+#chapter-12 blockquote b{
+	font-size: 1.25em;
+}
+
+#chapter-12 blockquote p:last-of-type{
+	font-size: .75em;
+}
+
+#chapter-10 blockquote p + p:before,
+#chapter-12 blockquote p + p:before{
+	border-top: 1px solid;
+	content: "";
+	display: block;
+	margin: 0 auto;
+	margin: 1em auto;
+	width: 10%;
+}
