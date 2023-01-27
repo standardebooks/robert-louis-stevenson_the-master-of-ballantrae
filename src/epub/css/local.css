@@ -9,6 +9,7 @@ header{
 
 #chapter-6 li span,
 #preface footer p + p,
+#preface hr + p,
 q{
 	font-style: italic;
 }
