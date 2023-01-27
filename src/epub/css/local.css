@@ -19,10 +19,6 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
-}
-
 [epub|type~="se:letter.dateline"]{
 	margin-top: 1em;
 	text-align: right;
@@ -33,8 +29,7 @@ footer{
 	text-align: initial;
 }
 
-[epub|type~="z3998:salutation"],
-[epub|type~="z3998:recipient"]{
+[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 	text-indent: 0;
 }
@@ -75,10 +70,25 @@ p span.i1{
 	list-style-type: upper-alpha;
 }
 
+#chapter-3 p:first-of-type,
+#chapter-7 p:first-of-type,
 #chapter-10 blockquote,
 #chapter-12 blockquote{
 	font-variant: small-caps;
 	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-3 p:first-of-type,
+#chapter-7 p:first-of-type{
+	margin-bottom: 1em;
+}
+
+#chapter-3 p:nth-of-type(2),
+#chapter-7 p:nth-of-type(2),
+#chapter-10 blockquote p,
+#chapter-12 blockquote p{
+	text-indent: 0;
 }
 
 #chapter-10 blockquote b,
