@@ -56,14 +56,18 @@ footer{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p,
-[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:poem"] p{
 	margin-top: 1em;
 }
 
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
+}
+
+#chapter-4 header > p:first-of-type{
+	text-align: center;
+	text-indent: 0;
 }
 
 #chapter-6 ol{
