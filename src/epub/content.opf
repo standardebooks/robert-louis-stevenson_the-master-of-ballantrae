@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Master of Ballantrae</dc:title>
 		<meta property="file-as" refines="#title">Master of Ballantrae, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Winter’s Tale</dc:title>
+		<meta property="file-as" refines="#subtitle">Winter’s Tale, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Master of Ballantrae: A Winter’s Tale</dc:title>
+		<meta property="file-as" refines="#fulltitle">Master of Ballantrae, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">Scotland -- History -- 18th century -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Inheritance and succession -- Fiction</dc:subject>
