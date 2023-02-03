@@ -7,13 +7,6 @@ header{
 	text-align: center;
 }
 
-#chapter-6 li span,
-#preface footer p + p,
-#preface hr + p,
-q{
-	font-style: italic;
-}
-
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -61,6 +54,14 @@ p span.i1{
 	text-indent: -1em;
 }
 
+q,
+#chapter-6 li span,
+#chapter-6 p:nth-of-type(64) span,
+#preface footer p + p,
+#preface hr + p{
+	font-style: italic;
+}
+
 #chapter-3 blockquote,
 #chapter-7 blockquote{
 	margin: 1em 1.5em;
@@ -73,6 +74,10 @@ p span.i1{
 
 #chapter-6 ol{
 	list-style-type: upper-alpha;
+}
+
+#chapter-6 p:nth-of-type(64){
+	margin: 1em 0;
 }
 
 #chapter-10 blockquote,
