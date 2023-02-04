@@ -3,7 +3,7 @@
 
 header{
 	font-variant: small-caps;
-	margin: 1em;
+	margin: 1em 0;
 	text-align: center;
 }
 
@@ -12,6 +12,11 @@ footer{
 	text-align: right;
 }
 
+q{
+	font-style: italic;
+}
+
+/* letters */
 [epub|type~="se:letter.dateline"]{
 	margin-top: 1em;
 	text-align: right;
@@ -30,7 +35,9 @@ footer{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+/* end of letters */
 
+/* poems+ */
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
@@ -53,12 +60,13 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
+/* end of poems+ */
 
-q,
-#chapter-6 li span,
-#chapter-6 p:nth-of-type(64) span,
+/* bespoke styling */
 #preface footer p + p,
-#preface hr + p{
+#preface hr + p,
+#chapter-6 li span,
+#chapter-6 p:nth-of-type(64) span{
 	font-style: italic;
 }
 
@@ -97,10 +105,6 @@ q,
 	font-size: 1.25em;
 }
 
-#chapter-12 blockquote p:last-of-type{
-	font-size: .75em;
-}
-
 #chapter-10 blockquote p + p:before,
 #chapter-12 blockquote p + p:before{
 	border-top: 1px solid;
@@ -110,3 +114,8 @@ q,
 	margin: 1em auto;
 	width: 10%;
 }
+
+#chapter-12 blockquote p:last-of-type{
+	font-size: .75em;
+}
+/* end bespoke styling */
