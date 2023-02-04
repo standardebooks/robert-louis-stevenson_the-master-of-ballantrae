@@ -62,14 +62,13 @@ p span.i1{
 /* bespoke styling */
 #preface footer p + p,
 #preface hr + p,
-#chapter-6 li span,
-#chapter-6 p:nth-of-type(64) span{
+#chapter-6 li span{
 	font-style: italic;
 }
 
 #chapter-3 blockquote,
 #chapter-7 blockquote{
-	margin: 1em 1.5em;
+	margin: 1em 0;
 }
 
 #chapter-4 header > p:first-of-type{
@@ -85,15 +84,14 @@ p span.i1{
 	margin: 1em 0;
 }
 
-#chapter-10 blockquote,
-#chapter-12 blockquote{
-	font-variant: small-caps;
-	text-align: center;
-	text-indent: 0;
+#chapter-6 p:nth-of-type(64) span{
+	font-style: italic;
 }
 
 #chapter-10 blockquote p,
 #chapter-12 blockquote p{
+	font-variant: small-caps;
+	text-align: center;
 	text-indent: 0;
 }
 
@@ -107,7 +105,6 @@ p span.i1{
 	border-top: 1px solid;
 	content: "";
 	display: block;
-	margin: 0 auto;
 	margin: 1em auto;
 	width: 10%;
 }
