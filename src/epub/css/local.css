@@ -84,10 +84,6 @@ p span.i1{
 	margin: 1em 0;
 }
 
-#chapter-6 p:nth-of-type(64) span{
-	font-style: italic;
-}
-
 #chapter-10 blockquote p,
 #chapter-12 blockquote p{
 	font-variant: small-caps;
