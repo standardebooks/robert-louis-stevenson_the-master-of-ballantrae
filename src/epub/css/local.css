@@ -4,7 +4,6 @@
 header{
 	font-variant: small-caps;
 	margin: 1em 0;
-	text-align: center;
 }
 
 footer{
@@ -61,8 +60,7 @@ p span.i1{
 
 /* bespoke styling */
 #preface footer p + p,
-#preface hr + p,
-#chapter-6 li span{
+#preface hr + p{
 	font-style: italic;
 }
 
@@ -73,7 +71,6 @@ p span.i1{
 
 #chapter-4 header > p:first-of-type{
 	text-align: center;
-	text-indent: 0;
 }
 
 #chapter-6 ol{
