@@ -105,4 +105,8 @@ p span.i1{
 #chapter-12 blockquote p:last-of-type{
 	font-size: .75em;
 }
+
+#dedication{
+	margin-top: 20vh;
+}
 /* end bespoke styling */
