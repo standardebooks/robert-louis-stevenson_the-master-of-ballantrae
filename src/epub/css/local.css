@@ -90,7 +90,7 @@ p span.i1{
 
 #chapter-10 blockquote b,
 #chapter-12 blockquote b{
-	font-size: 1.25em;
+	font-size: larger;
 }
 
 #chapter-10 blockquote p + p:before,
@@ -103,7 +103,7 @@ p span.i1{
 }
 
 #chapter-12 blockquote p:last-of-type{
-	font-size: .75em;
+	font-size: smaller;
 }
 
 #dedication{
