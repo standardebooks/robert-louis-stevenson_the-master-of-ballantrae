@@ -38,12 +38,12 @@
 		<meta property="file-as" refines="#fulltitle">Master of Ballantrae, The</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
-		<dc:subject id="subject-2">Scotland -- History -- 18th century -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Inheritance and succession -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Revenge -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Scotland--History--18th century--Fiction</dc:subject>
+		<dc:subject id="subject-3">Inheritance and succession--Fiction</dc:subject>
+		<dc:subject id="subject-4">Revenge--Fiction</dc:subject>
 		<dc:subject id="subject-5">Psychological fiction</dc:subject>
-		<dc:subject id="subject-6">Brothers -- Fiction</dc:subject>
-		<dc:subject id="subject-7">Absence and presumption of death -- Fiction</dc:subject>
+		<dc:subject id="subject-6">Brothers--Fiction</dc:subject>
+		<dc:subject id="subject-7">Absence and presumption of death--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85061165</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
