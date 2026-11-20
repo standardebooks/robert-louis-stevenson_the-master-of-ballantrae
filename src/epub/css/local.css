@@ -93,8 +93,8 @@ p span.i1{
 	font-size: larger;
 }
 
-#chapter-10 blockquote p + p:before,
-#chapter-12 blockquote p + p:before{
+#chapter-10 blockquote p + p::before,
+#chapter-12 blockquote p + p::before{
 	border-top: 1px solid;
 	content: "";
 	display: block;
